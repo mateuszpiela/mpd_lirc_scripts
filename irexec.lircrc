@@ -1,0 +1,47 @@
+begin
+        prog = irexec
+        button = KEY_VOLUMEUP
+        config = python /etc/ir_scripts/mpd_volume.py up
+end
+
+begin
+        prog = irexec
+        button = KEY_VOLUMEDOWN
+        config = python /etc/ir_scripts/mpd_volume.py down
+end
+
+begin
+        prog = irexec
+        button = KEY_MUTE
+        config = python /etc/ir_scripts/mpd_volume.py mute
+end
+
+begin
+        prog = irexec
+        button = KEY_PREVIOUS
+        config = python /etc/ir_scripts/mpd_musicctrl.py previous
+end
+
+begin
+        prog = irexec
+        button = KEY_PLAYPAUSE
+        config = python /etc/ir_scripts/mpd_musicctrl.py playpause
+end
+
+begin
+        prog = irexec
+        button = KEY_NEXT
+        config = python /etc/ir_scripts/mpd_musicctrl.py next
+end
+
+begin
+        prog = irexec
+        button = KEY_KP0
+        config = python /etc/ir_scripts/mpd_musicctrl.py repeat
+end
+
+begin
+        prog = irexec
+        button = KEY_KP1
+        config = python /etc/ir_scripts/mpd_musicctrl.py shuffle
+end
